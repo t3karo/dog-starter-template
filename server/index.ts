@@ -4,7 +4,7 @@ import cors from 'cors';
 import dogRoutes from './routes/dogRoutes';
 
 const app: Express = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors());
